@@ -1,6 +1,6 @@
-# 💬 Ask Chatbot (Streamlit + LangChain + Groq)
+# 💬 Ask Chatbot (Streamlit + LangChain + Grok)
 
-This is a Streamlit-based chatbot that uses LangChain with Groq's LLaMA 3 model to carry on intelligent conversations. It supports multiple chat sessions, renaming, and session management.
+This is a Streamlit-based chatbot that uses LangChain with Grok's LLaMA 3 model to carry on intelligent conversations. It supports multiple chat sessions, renaming, and session management.
 
 ---
 
@@ -9,7 +9,7 @@ This is a Streamlit-based chatbot that uses LangChain with Groq's LLaMA 3 model 
 - Multi-session chat with history
 - Rename chat sessions
 - Search through chats
-- Uses LangChain + Groq API (LLaMA3)
+- Uses LangChain + Grok API (LLaMA3)
 
 ---
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 Create a `.env` file in your project root:
 
 ```env
-grok_api_key=your_actual_groq_api_key_here
+grok_api_key=your_actual_Grok_api_key_here
 ```
 
 ---
@@ -47,6 +47,6 @@ streamlit run chatgpt.py
 .
 ├── chatgpt.py           # Main application
 ├── requirements.txt
-├── .env                     # Your Groq API key
+├── .env                     # Your Grok API key
 └── README.md
 
