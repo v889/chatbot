@@ -38,18 +38,14 @@ grok_api_key=your_actual_groq_api_key_here
 Once dependencies are installed and `.env` is set:
 
 ```bash
-streamlit run chatbot_app.py
-```
+streamlit run chatgpt.py
 
-Replace `chatbot_app.py` with your actual Python filename.
-
----
 
 ## 📁 Project Structure
 
 ```
 .
-├── chatbot_app.py           # Main application
+├── chatgpt.py           # Main application
 ├── requirements.txt
 ├── .env                     # Your Groq API key
 └── README.md
